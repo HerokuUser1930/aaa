@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 
 var bot = new Discord.Client()
 
-const TOKEN = "NDg2MDI5NjAzNDc1ODE2NDQ4.DnNw2Q.BHyNusth23Ls1XIhdSRtqjdvLts"
+const TOKEN = ""
 
 bot.on("message", function(message) {
 
