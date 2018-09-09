@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 
 var bot = new Discord.Client()
 
-const TOKEN = ""
+const TOKEN = process.env.BOT_TOKEN
 
 bot.on("message", function(message) {
 
