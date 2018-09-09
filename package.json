@@ -1,15 +1,17 @@
 {
-  "name": "umbotaleatorio",
+  "name": "aaa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^11.3.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.22.2",
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "PotterZ",
+  "author": "sla",
   "license": "ISC"
 }
