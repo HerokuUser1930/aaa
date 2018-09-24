@@ -190,6 +190,10 @@ incidentchannel.send(banEmbed);
 if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.sendMessage('Pong! Seu ping e `' + `${Date.now() - message.createdTimestamp}` + ' ms`');
 }
+   
+    if (command == 'b!teste') {
+     process.env.bancmd
+    }
     
 });
 bot.login(TOKEN);
