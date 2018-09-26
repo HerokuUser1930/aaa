@@ -32,7 +32,7 @@ bot.on("message", async message => {
 await message.author.send(h1)
 }catch(e){
 console.log(e.stack);
-message.channel.send(`${message.author}**, Habilite a DM para eu poder enviar os comandos.**')
+message.channel.send(`${message.author}**, Habilite a DM para eu poder enviar os comandos.**`)
 }
 
 }
