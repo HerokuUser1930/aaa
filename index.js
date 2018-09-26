@@ -26,18 +26,7 @@ bot.on("message", async message => {
         message.channel.send(message.author + '**, Enviei minhas informações em seu privado.**')
         
         const h1 = new Discord.RichEmbed()
-        .addField('Comandos Públicos:', '!ajuda - Mostra essas páginas de comandos\n!serverinfo - Mostra as informações do servidor\n!reportar - Reporta um usuário para a Staff\n!ping - ver o seu ping')
-        .setColor('#ff7a00')
-        .setAuthor(message.author.tag, message.author.displayAvatarURL)
-        .addField('Comandos para Moderação:', '!banir - Banir um usuário do servidor(Banir Membros)\n!kick - Expulsa um usuário do servidor(Expulsar Membros)')
-        .setColor('#ff1800')
-        .setAuthor(message.author.tag, message.author.displayAvatarURL)
-        .addField('Outros Comandos:', '!anunciar - Faz um anúncio no canal #anuncios(Gerenciar Canais)')
-        .setColor('#00ff01')
-        .setAuthor(message.author.tag, message.author.displayAvatarURL)		
-        .addField('Caso precise de algo:', 'contate meu dono! PotterZ#6281 ')
-        .setColor('#00ff01')
-        .setAuthor(message.author.tag, message.author.displayAvatarURL)
+            .addField('a', 'a')
 
           try{
 await message.author.send(h1)
