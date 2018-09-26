@@ -52,7 +52,7 @@ message.channel.send(`${message.author}**, Habilite a DM para eu poder enviar os
         const embed = new Discord.RichEmbed()
      .addField(':computer: Id do servidor', message.guild.id)
     .setColor(0x00FFFF)
-    .addField(':hammer: Criador do bot', '`PotterZ#6281`')
+    .addField(':hammer: Criador do bot', '`a`')
     .addField(':newspaper: Seu Cargo', message.member.highestRole.name)
     .addField(':tophat: Criador do servidor', message.guild.owner)
     .addField(':earth_americas:   Região do servidor', message.guild.region)
